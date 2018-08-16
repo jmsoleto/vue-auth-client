@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <h1>This is the home page</h1>
+    <h1>Welcome to regular user page</h1>
     <h2>{{msg}}</h2>
   </div>
 </template>
@@ -9,10 +9,10 @@
 export default {
   data () {
     return {
-      msg: 'hello world'
+      msg: 'The commoers'
     }
   }
-} 
+}
 </script>
 
 <style scoped>
@@ -30,5 +30,4 @@ export default {
   a {
     color: #42b983;
    }
-
 </style>
